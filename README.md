@@ -1,5 +1,7 @@
 # Astar
 
+https://maximitas.github.io/Astar/
+
 <img width="570" height="627" alt="Astar" src="https://github.com/user-attachments/assets/f1fed929-eb4b-4d37-986f-a6dba977b851" />
 
 Når man ser på visualiseringen, er der forskellige farver, som hver har sin betydning. Det grønne felt markerer vores startpunkt, og det røde felt er målet, vi gerne vil nå. De sorte farver er mure, vi ikke kan gå igennem. Vi kan ikke bevæge os diagonalt heller. Kun op, ned, højre, venstre. Formålet er ikke blot at finde en vej, men at finde den korteste vej derhen.
