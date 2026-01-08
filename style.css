@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    gap: 2px; 
+    background-color: #999;
+    border: 2px solid #333;
+}
+
+.node {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+
+.wall { background-color: #333; }     /* Mur = Sort */
+.start { background-color: #2ecc71; } /* Start = Grøn */
+.end { background-color: #e74c3c; }   /* Slut = Rød */
+.visited { background-color: #add8e6; } /* Besøgt = Lyseblå */
+.path { background-color: #f1c40f; }    /* Den endelige rute = Gul */
